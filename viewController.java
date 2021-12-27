@@ -24,8 +24,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 
 public class viewController implements Initializable {
-    @FXML
-    private MenuItem btnHelp;
 
     @FXML
     private TextField tfIDIndividual;
