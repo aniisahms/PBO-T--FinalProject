@@ -208,17 +208,6 @@ public class viewController implements Initializable {
 
     private Rekening globalRekening; 
 
-    @FXML
-    void handleButtonHelp(ActionEvent event) { //link github
-        Desktop desktop = java.awt.Desktop.getDesktop();
-        
-        try {
-            URI oURL = new URI("Tes");
-            desktop.browse(oURL);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     @FXML
     void handleHapusIndividual(ActionEvent event) throws SQLException {
