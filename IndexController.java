@@ -27,8 +27,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 
 public class IndexController implements Initializable {
-    @FXML
-    private MenuItem btnHelp;
 
     @FXML
     private TextField tfIDIndividual;
